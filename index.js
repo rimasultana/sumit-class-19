@@ -12,5 +12,9 @@
 // let z = x + y;
 // document.getElementById("demo").innerHTML = z;
 
-let x = 10/"Apple";
-document.getElementById("demo").innerHTML = isNaN(x);
+// let x = 10/"Apple";
+// document.getElementById("demo").innerHTML = isNaN(x);
+
+
+let x = NaN;
+document.getElementById("demo").innerHTML = typeof(x);
