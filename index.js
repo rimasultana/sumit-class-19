@@ -7,7 +7,10 @@
 // let x = 0.4 + .45;
 // document.getElementById("demo").innerHTML =0.4 + .45 + x;
 
-let x = 10;
-let y = 40;
-let z = x + y;
-document.getElementById("demo").innerHTML = z;
+// let x = 10;
+// let y = 40;
+// let z = x + y;
+// document.getElementById("demo").innerHTML = z;
+
+let x = 10/"Apple";
+document.getElementById("demo").innerHTML = isNaN(x);
